@@ -1,9 +1,7 @@
 .imgloget{
     width: 100px;
 }
-.bg-body-tertiary{
-    background-color: none !important;
-}
+
 .cartitas{
     display: flex;
     flex-wrap: wrap;
@@ -77,7 +75,53 @@ table, tr, th, td, tbody{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.reporte{
+    border: 3px solid rgba(0, 0, 0, 0.76) ;
+    box-shadow: 0 0 50px rgb(239, 130, 14);
+    border-radius: 15px;
+    width: 320px;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+}
+.maincontact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgdetails{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 5px;
+    border-radius: 15px;
+    border: 1px solid rgb(240, 33, 33);
+    box-shadow: 0 0 15px red;
+}
+.detailsmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.margindetails{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: 3px solid black;
+    box-shadow: 0 0 15px yellow;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    max-width: 850px;
+    min-height: 400px;
+    margin: 10px;
+}
+.detailssize{
+    max-width: 400px;
 
+}
+.letranegrita{
+    font-weight: bolder;
+}
 @media (min-width:190px) and (max-width:304px){
     .onlylogos{
         flex-direction: column;
@@ -86,5 +130,16 @@ table, tr, th, td, tbody{
 @media (min-width:0px) and (max-width:280px){
     .tabla{
         display: none;
+    }
+}
+@media (min-width:190px) and (max-width:799px){
+    .margindetails{
+        max-width: 450px;
+        margin: 20px;
+    }
+    .imgdetails{
+        margin: 15px;
+        margin-left: 6px;
+        margin-right: 6px;
     }
 }
