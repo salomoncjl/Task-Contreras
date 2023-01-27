@@ -1,0 +1,59 @@
+.imgloget{
+    width: 100px;
+}
+.cartitas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.buscador{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+    gap: 10px;
+}
+.searchcheck{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(47, 45, 45);
+    min-height: 10vh;
+    margin-top: 100px;
+    display: flex;
+}
+main{
+    min-height: 80vh;
+}
+.logoredes{
+    display: flex;
+    width: 40px;
+    height: 32px;
+    margin: 10px;
+}
+.contenedorredes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    width: 100%;
+}
+.onlylogos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blanco{
+    color: white;
+    margin: 10px;
+}
+
+
+@media (min-width:190px) and (max-width:304px){
+    .onlylogos{
+        flex-direction: column;
+    }
+}
