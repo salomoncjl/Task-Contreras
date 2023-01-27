@@ -1,6 +1,9 @@
 .imgloget{
     width: 100px;
 }
+.bg-body-tertiary{
+    background-color: none !important;
+}
 .cartitas{
     display: flex;
     flex-wrap: wrap;
@@ -51,9 +54,37 @@ main{
     margin: 10px;
 }
 
+table, tr, th, td, tbody{
+    border: 3px solid black !important;
+    padding: 2px;
+    border-collapse: collapse;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.title{
+    background-color: rgb(193, 186, 186);
+    box-shadow: 0 0 10px rgb(56, 127, 172);
+    font-size: 20px;
+    color: black;
+}
+.tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-titulo{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 @media (min-width:190px) and (max-width:304px){
     .onlylogos{
         flex-direction: column;
+    }
+}
+@media (min-width:0px) and (max-width:280px){
+    .tabla{
+        display: none;
     }
 }
