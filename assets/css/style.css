@@ -8,6 +8,14 @@
     gap: 30px;
     justify-content: center;
 }
+.precio-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.preciocartita{
+    display: flex;
+}
 .buscador{
     display: flex;
     align-items: center;
