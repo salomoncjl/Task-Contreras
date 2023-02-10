@@ -32,11 +32,11 @@
 footer{
     background-color: rgb(47, 45, 45);
     min-height: 10vh;
-    margin-top: 100px;
     display: flex;
+    margin-top: 20px;
 }
 main{
-    min-height: 80vh;
+    min-height: 84vh;
 }
 .logoredes{
     display: flex;
@@ -96,10 +96,18 @@ table, tr, th, td, tbody{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 84vh;
+}
+.mainstats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 84vh;
 }
 .imgdetails{
-    max-width: 100%;
-    max-height: 100%;
+    width: 274px;
+    height: 160px;
     margin: 5px;
     border-radius: 15px;
     border: 1px solid rgb(240, 33, 33);
@@ -109,6 +117,9 @@ table, tr, th, td, tbody{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.card-text{
+    height: 70px;
 }
 .margindetails{
     display: flex;
@@ -127,8 +138,14 @@ table, tr, th, td, tbody{
     max-width: 400px;
 
 }
+.contenedorCheack{
+    display: flex;
+}
 .letranegrita{
     font-weight: bolder;
+}
+.filtro{
+    display: none;
 }
 @media (min-width:190px) and (max-width:304px){
     .onlylogos{
@@ -141,6 +158,17 @@ table, tr, th, td, tbody{
     }
 }
 @media (min-width:190px) and (max-width:799px){
+    .paramedia{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .contenedorCheack{
+        flex-direction: column;
+    }
+    .buscador{
+        display: flex;
+        flex-wrap: wrap;
+    }
     .margindetails{
         max-width: 450px;
         margin: 20px;
