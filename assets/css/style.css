@@ -67,6 +67,7 @@ table, tr, th, td, tbody{
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .title{
     background-color: rgb(193, 186, 186);
     box-shadow: 0 0 10px rgb(56, 127, 172);
@@ -76,7 +77,9 @@ table, tr, th, td, tbody{
 .tabla{
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
 }
 .cont-titulo{
     text-align: center;
